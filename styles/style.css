@@ -186,7 +186,7 @@
   margin: 0;
   padding-top: 100px;
   position: relative;
-  height: 890px;
+  min-height: 890px;
   background-color:  #f2f2f2;
   box-sizing: border-box;
 }
@@ -221,6 +221,7 @@
   font-weight: normal;
   color: #2f80ed;
   top: 50%;
+  z-index: 2;
 }
 
 .feynman__image {
@@ -244,12 +245,14 @@
   color: #fff;
   width: 60%;
   z-index: 1;
+  position: relative;
 }
 
 .section-subtitle_theme_dark {
   color: #fff;
   width: 60%;
   z-index: 1;
+  position: relative;
 }
 
 .table_theme_dark {
@@ -309,7 +312,6 @@
 
 .footer__author {
   margin: 0;
-  bottom: 18px;
   padding: 18px 0;
   line-height: 25px;
   font-size: 18px;
